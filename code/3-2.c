@@ -4,7 +4,7 @@ int global_var = 0;
 
 void test_scope() {
     static int static_var = 0;
-    int lacal_var = 0;
+    int local_var = 0;
 
     global_var++;
     static_var++;
