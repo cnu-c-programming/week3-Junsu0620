@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-void int add(int a , int b) {
+void add(int a , int b) {
     printf("%d + %d = %d\n", a, b, (a + b));
 } 
-void int sub(int a , int b) {
+void sub(int a , int b) {
     printf("%d - %d = %d\n", a, b, (a - b));
 }
-void int mul(int a , int b) {
+void mul(int a , int b) {
     printf("%d * %d = %d\n",a , b, (a * b));
 }
-void int div(int a , int b) {
+void div(int a , int b) {
     printf("%d / %d = %d\n", a, b, (a / b));
 }
 
